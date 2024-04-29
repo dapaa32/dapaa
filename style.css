@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: orpheus pro;
+}
+
+.navigasi   {
+    background-color: #3B4248;
+    width: 100%;
+    height: 70px;
+    color: rgb(3, 3, 3);
+    position: fixed;
+}
+
+
+.logo   {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu{
+    margin-left: 1300px;
+    padding-top: 28px;
+}
+
+
+.menu ul li {
+        list-style:none ;
+        display: inline-block;
+        margin-right: 50px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu ul li a:hover {
+    color:lightgoldenrodyellow;
+    font-style: italic;
+}
+
+
+.benner{
+    background-color: #3B4248;
+    height: 700px;
+    text-align: center;
+}
+
+
+.benner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+    /* margin-top: ; */
+
+}
+
+
+.benner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.benner button  {
+
+    margin-top: 60px;
+    padding: 6px;
+    width: 400px;
+    border-radius: 50px;
+    border:none;
+}
+
+.benner button:hover{
+    background-color:rgb(83, 87, 92);
+    border:1px solid white
+}
+
+
+h1 span:before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightgoldenrodyellorgb(83, 87, 92)w;
+    font-size: 70px;
+}
+
+@keyframes gerak{
+    0% {
+        content: 'WELCOME';
+    }
+    50% {
+        content: 'ME MHD FADLI DAFFA HIDAYAH SIREGAR ';
+    }
+    100% {
+        content: 'THANKS YOU';
+    }
+}
+
+.box-Education{
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+    align-content: center;
+} 
+    .box-kiri, .box-Tengah, .box-Kanan{
+    width: 300px;
+    height: 320px;
+    background-color:#828382;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 70px 70px 170px;
+    border-radius: 100px;
+    float: left;
+}
+
+.box-kiri:hover, .box-Tengah:hover, .box-Kanan:hover{
+    background-color: #D3CBC8;
+    color: white;
+}
+
+.box-pendidikan h3, p{ 
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-experience{
+    text-align: center;
+    color: black;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+
+.box-contact img {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+
+.box-contact{
+    text-align: center;
+    color: rgb(83, 87, 92);
+    margin-top: 100px;
+}
+
+.b{
+    background-color: #BCC8C6;
+}
